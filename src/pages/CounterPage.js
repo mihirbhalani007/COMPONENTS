@@ -74,7 +74,7 @@ function CounterPage({ initialCount }) {
       type: ADD_VALUE_TO_COUNT,
     });
   };
-
+  
   return (
     <Panel className="m-3">
       <h1 className="text-lg">Count is {state.count}</h1>
