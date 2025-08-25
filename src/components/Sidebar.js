@@ -8,6 +8,8 @@ function Sidebar() {
     { label: "Modal", path: "/modal" },
     { label: "Table", path: "/table" },
     { label: "Counter", path: "/counter" },
+    { label: "Loader", path: "/loader" },
+    { label: "Skeleton", path: "/skeleton" },
   ];
 
   const renderedLinks = links.map((link) => {

@@ -6,6 +6,9 @@ import ButtonPage from "./pages/ButtonPage";
 import ModalPage from "./pages/ModalPage";
 import TablePage from "./pages/TablePage";
 import CounterPage from "./pages/CounterPage";
+import "bootstrap/dist/css/bootstrap.min.css";
+import SkeletonPage from "./pages/SkeletonPage";
+import LoaderPage from "./pages/LoaderPage";
 
 function App() {
   return (
@@ -30,6 +33,12 @@ function App() {
         </Route>
         <Route path="/counter">
           <CounterPage initialCount={10} />
+        </Route>
+        <Route path="/loader">
+          <LoaderPage />
+        </Route>
+        <Route path="/skeleton">
+          <SkeletonPage />
         </Route>
       </div>
     </div>
